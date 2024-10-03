@@ -5,29 +5,33 @@
     "passes": 0,
     "pending": 0,
     "failures": 13,
-    "start": "2024-10-02T10:32:50.236Z",
-    "end": "2024-10-02T10:32:51.074Z",
-    "duration": 838
+    "start": "2024-10-03T03:46:02.168Z",
+    "end": "2024-10-03T03:46:02.891Z",
+    "duration": 723
   },
   "tests": [
+    {
+      "title": "returns a distance in blocks",
+      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected undefined to equal 1",
+        "showDiff": true,
+        "expected": 1,
+        "stack": "AssertionError: expected undefined to equal 1\n    at Context.<anonymous> (test/indexTest.js:6:45)\n    at process.processImmediate (node:internal/timers:491:21)"
+      }
+    },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
-      }
-    },
-    {
-      "title": "returns a distance in blocks",
-      "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected undefined to equal 8",
+        "showDiff": true,
+        "expected": 8,
+        "stack": "AssertionError: expected undefined to equal 8\n    at Context.<anonymous> (test/indexTest.js:10:45)\n    at process.processImmediate (node:internal/timers:491:21)"
       }
     },
     {
@@ -36,14 +40,16 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected undefined to equal 8",
+        "showDiff": true,
+        "expected": 8,
+        "stack": "AssertionError: expected undefined to equal 8\n    at Context.<anonymous> (test/indexTest.js:14:45)\n    at process.processImmediate (node:internal/timers:491:21)"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -103,7 +109,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:48:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -123,7 +129,7 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:57:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -146,21 +152,25 @@
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 2,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:6:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected undefined to equal 1",
+        "showDiff": true,
+        "expected": 1,
+        "stack": "AssertionError: expected undefined to equal 1\n    at Context.<anonymous> (test/indexTest.js:6:45)\n    at process.processImmediate (node:internal/timers:491:21)"
       }
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected undefined to equal 8",
+        "showDiff": true,
+        "expected": 8,
+        "stack": "AssertionError: expected undefined to equal 8\n    at Context.<anonymous> (test/indexTest.js:10:45)\n    at process.processImmediate (node:internal/timers:491:21)"
       }
     },
     {
@@ -169,14 +179,16 @@
       "duration": 0,
       "currentRetry": 0,
       "err": {
-        "stack": "ReferenceError: distanceFromHqInBlocks is not defined\n    at Context.<anonymous> (test/indexTest.js:14:7)\n    at process.processImmediate (node:internal/timers:491:21)",
-        "message": "distanceFromHqInBlocks is not defined"
+        "message": "expected undefined to equal 8",
+        "showDiff": true,
+        "expected": 8,
+        "stack": "AssertionError: expected undefined to equal 8\n    at Context.<anonymous> (test/indexTest.js:14:45)\n    at process.processImmediate (node:internal/timers:491:21)"
       }
     },
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: distanceFromHqInFeet is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -236,7 +248,7 @@
     {
       "title": "gives customers a free sample",
       "fullTitle": "index.js calculatesFarePrice(start, destination) gives customers a free sample",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:48:7)\n    at process.processImmediate (node:internal/timers:491:21)",
@@ -256,7 +268,7 @@
     {
       "title": "charges 25 dollars for a distance over 2000 feet",
       "fullTitle": "index.js calculatesFarePrice(start, destination) charges 25 dollars for a distance over 2000 feet",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: calculatesFarePrice is not defined\n    at Context.<anonymous> (test/indexTest.js:57:7)\n    at process.processImmediate (node:internal/timers:491:21)",
